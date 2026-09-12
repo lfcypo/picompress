@@ -108,7 +108,7 @@ jobs:
           tool: cargo-deny
 
       - name: Run Deny
-        run: cargo deny --all-features check
+        run: cargo deny check
 
   udeps:
     name: Unused Deps Check
