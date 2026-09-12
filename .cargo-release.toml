@@ -1,0 +1,10 @@
+[package]
+name = "picompress"
+
+[package.metadata.release]
+tag-prefix = "v"
+
+publish = false
+publish-doc = false
+
+branch-whitelist = ["main"]
