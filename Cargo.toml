@@ -5,6 +5,10 @@ edition = "2024"
 authors = ["lfcypo"]
 description = "A command line image compressor for common image formats"
 license = "MIT"
+repository = "https://github.com/lfcypo/biliget"
+homepage = "https://github.com/lfcypo/biliget"
+keywords = ["cli", "picture", "compress"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.104"
@@ -17,6 +21,14 @@ webp = "0.3.1"
 
 [dev-dependencies]
 tempfile = "3.27.0"
+
+[[bin]]
+name = "picompress"
+path = "src/main.rs"
+
+[profile.dev]
+opt-level = 0
+debug = true
 
 [profile.release]
 lto = "thin"
