@@ -5,8 +5,8 @@ edition = "2024"
 authors = ["lfcypo"]
 description = "A command line image compressor for common image formats"
 license = "MIT"
-repository = "https://github.com/lfcypo/biliget"
-homepage = "https://github.com/lfcypo/biliget"
+repository = "https://github.com/lfcypo/picompress"
+homepage = "https://github.com/lfcypo/picompress"
 keywords = ["cli", "picture", "compress"]
 categories = ["command-line-utilities"]
 
